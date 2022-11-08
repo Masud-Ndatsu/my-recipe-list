@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-lg: 32px;
+  --text-md: 24px;
+  --text-sm: 16px;
+  --text: 14px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+section {
+  margin-bottom: 2rem;
+}
+.container {
+  max-width: 992px;
+  margin: auto;
+  padding: 2rem 0.65rem;
+}
+
+.title {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.lead {
+}
+
+.lead-icon {
+  display: inline-flex;
+  width: 10px;
+}
+
+.banner {
+  height: 200px;
+  margin-bottom: 2rem;
+}
+
+.banner img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.fag {
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.list {
+  font-size: var(--text);
+  padding: 1rem 0;
+}
+
+.head {
+  margin-bottom: 1rem;
+}
+
+.item input {
+  margin-right: 15px;
+}
+
+.third {
+  padding: 2rem 0.75rem;
+}
+
+article > div {
+  margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: 5% 95%;
+  align-items: flex-start;
+  gap: 10px;
+}
+article div span {
+  background-color: #f2994a;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+}
+article div p {
+  margin-left: 0.5rem;
+}
+footer {
+  padding: 2rem 0;
+  text-align: center;
+  background-color: gainsboro;
+}
+
+.source {
+  text-align: center;
+  color: #888;
+}
+
+.card {
+  font-size: 12px;
+  max-width: 390px;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.card-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #888;
+}
+
+.card .card-item span {
+  text-transform: uppercase;
+  color: #333;
+}
+
+.scissors {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #888;
+}
+
+.fa-scissors {
+  color: #f2994a;
+}
+
+.scissors span:first-child {
+  text-transform: uppercase;
+}
+
+.scissors span:last-child {
+  color: #f2994a;
+}
+
+@media (min-width: 640px) {
+  .banner {
+    height: 400px;
+  }
+}
